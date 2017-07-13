@@ -45,7 +45,7 @@
             <setBody id="route-set-body">
                 <simple>Hello from Camel!</simple>
             </setBody>
-            <log id="route-log" message=">>> Version 2 from Git Commit: ${body} : ${id}"/>
+            <log id="route-log" message=">>> Version 3 Maven Fabric8 Deploy: ${body} : ${id}"/>
         </route>
     </camelContext>
 </blueprint>
